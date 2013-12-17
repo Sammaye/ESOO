@@ -6,7 +6,6 @@ ESOO
 ## Example
 
 ~~~
-[php]
 $q = new esoo\client()
   ->index('main')
   ->type('user')
