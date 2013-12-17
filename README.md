@@ -1,4 +1,4 @@
 ESOO
 ====
 
-*"es-oo"* - An OO layer for ES to make life a little easier
+**"es-oo"** - An OO layer for ES to searching a little easier without having to constantly format arrays
