@@ -20,7 +20,7 @@ if(isset($_GET['query'])){
 $c->filter()->and('term', array('userId' => strval($user->_id)))
 			->and('term', array('deleted' => 0));
 			
-if(!glue::user()->equals($user)){
+if(!$user === $o_user){
 	$c->filter()->and('range', array('listing' => array('lt' => 1)));
 }
 
